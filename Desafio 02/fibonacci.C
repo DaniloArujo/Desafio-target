@@ -14,21 +14,22 @@ int isFibonacci(int valueToSearch){
         temp = fibo0 + fibo1;
         fibo0 = fibo1;
         fibo1 = temp;
-    }
+    };
 
     if(valueToSearch == temp){
         return 1;
     }else{
         return 0;
-    }
+    };
 
-}
+};
 
 
 int main(void){
 
     int valueToSearch;
 
+    printf("######################\n");
 
     printf("Enter with value to search: ");
     scanf("%d",&valueToSearch);
@@ -39,6 +40,8 @@ int main(void){
         printf("The number dont belong to fibonacci sequence");
     }
     
+    printf("\n\n###############################");
+
 
     return 0;
 }
